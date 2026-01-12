@@ -52,16 +52,17 @@ Finding reliable domestic help is often time-consuming and unorganized, especial
 
 ## 📸 Screenshots
 
-> [Login Screen](screenshots/login.png)
-> [Signup Screen](screenshots/login.png)
-> [RoleSelection Screen](screenshots/login.png)
-> [CustomerHome Screen](screenshots/login.png)
-> [ProviderHome Screen](screenshots/login.png)
-> [AdminHome Screen]("C:\Users\91845\OneDrive\Desktop\Santosh\Sahaya_Images\SahayaAdminHome.png")
-> [ServiceSelection Screen](screenshots/login.png)
-> [ServiceBook Screen](screenshots/login.png)
-> [BookingConfirm Screen](screenshots/login.png)
-> [UserProfile Screen](screenshots/login.png)
+> [Login Screen](screenshots/SahayaLoginPage.png)
+> [Signup Screen](screenshots/SahayaSignupPage.png)
+> [RoleSelection Screen](screenshots/SahayaRoleSelection.png)
+> [CustomerHome Screen](screenshots/SahayaCustomerHome.png)
+> [ProviderHome Screen](screenshots/SahayaProviderHome.png)
+> [AdminHome Screen](screenshots/SahayaAdminHome.png)
+> [ServiceSelection Screen](screenshots/SahayaServiceSelection.png)
+> [ServiceBook Screen](screenshots/SahayaServiceBook.png)
+> [BookingConfirm Screen](screenshots/SahayaBookConfirm.png)
+> [UserProfile Screen](screenshots/SahayaUserProfile.png)
+> [ProfileUpdate Screen](screenshots/SahayaProfileUpdate.png)
 
 ---
 
