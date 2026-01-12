@@ -53,16 +53,27 @@ Finding reliable domestic help is often time-consuming and unorganized, especial
 ## 📸 Screenshots
 
 > [Login Screen](screenshots/SahayaLoginPage.png)
+
 > [Signup Screen](screenshots/SahayaSignupPage.png)
+
 > [RoleSelection Screen](screenshots/SahayaRoleSelection.png)
+
 > [CustomerHome Screen](screenshots/SahayaCustomerHome.png)
+
 > [ProviderHome Screen](screenshots/SahayaProviderHome.png)
+
 > [AdminHome Screen](screenshots/SahayaAdminHome.png)
+
 > [ServiceSelection Screen](screenshots/SahayaServiceSelection.png)
+
 > [ServiceBook Screen](screenshots/SahayaServiceBook.png)
+
 > [BookingConfirm Screen](screenshots/SahayaBookConfirm.png)
+
 > [UserProfile Screen](screenshots/SahayaUserProfile.png)
+
 > [ProfileUpdate Screen](screenshots/SahayaProfileUpdate.png)
+
 
 ---
 
