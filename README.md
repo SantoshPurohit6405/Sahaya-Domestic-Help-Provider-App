@@ -53,7 +53,7 @@ Finding reliable domestic help is often time-consuming and unorganized, especial
 ## 📸 Screenshots
 
 > [Login Screen]
-<img src="screenshots/SahayaLoginPage.png" width="300" height="200"/>
+<img src="screenshots/SahayaLoginPage.png" width="300" height="400"/>
 
 > [Signup Screen]
 <img src="screenshots/SahayaSignupPage.png" width="200"/>
