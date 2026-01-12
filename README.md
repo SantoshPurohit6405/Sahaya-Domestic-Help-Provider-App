@@ -52,27 +52,27 @@ Finding reliable domestic help is often time-consuming and unorganized, especial
 
 ## 📸 Screenshots
 
-> [Login Screen](screenshots/SahayaLoginPage.png)
+> [Login Screen] <img src="screenshots/SahayaLoginPage.png" width="300"/>
 
-> [Signup Screen](screenshots/SahayaSignupPage.png)
+> [Signup Screen]<img src="screenshots/SahayaSignupPage.png" width="300"/>
 
-> [RoleSelection Screen](screenshots/SahayaRoleSelection.png)
+> [RoleSelection Screen]<img src="screenshots/SahayaRoleSelection.png" width="300"/>
 
-> [CustomerHome Screen](screenshots/SahayaCustomerHome.png)
+> [CustomerHome Screen]<img src="screenshots/SahayaCustomerHome.png" width="300"/>
 
-> [ProviderHome Screen](screenshots/SahayaProviderHome.png)
+> [ProviderHome Screen]<img src="screenshots/SahayaProviderHome.png" width="300"/>
 
-> [AdminHome Screen](screenshots/SahayaAdminHome.png)
+> [AdminHome Screen]<img src="screenshots/SahayaAdminHome.png" width="300"/>
 
-> [ServiceSelection Screen](screenshots/SahayaServiceSelection.png)
+> [ServiceSelection Screen]<img src="screenshots/SahayaServiceSelection.png" width="300"/>
 
-> [ServiceBook Screen](screenshots/SahayaServiceBook.png)
+> [ServiceBook Screen]<img src="screenshots/SahayaServiceBook.png" width="300"/>
 
-> [BookingConfirm Screen](screenshots/SahayaBookConfirm.png)
+> [BookingConfirm Screen]<img src="screenshots/SahayaBookConfirm.png" width="300"/>
 
-> [UserProfile Screen](screenshots/SahayaUserProfile.png)
+> [UserProfile Screen]<img src="screenshots/SahayaUserProfile.png" width="300"/>
 
-> [ProfileUpdate Screen](screenshots/SahayaProfileUpdate.png)
+> [ProfileUpdate Screen]<img src="screenshots/SahayaProfileUpdate.png" width="300"/>
 
 
 ---
