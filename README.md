@@ -53,36 +53,37 @@ Finding reliable domestic help is often time-consuming and unorganized, especial
 ## 📸 Screenshots
 
 > [Login Screen]
-<img src="screenshots/SahayaLoginPage.png" width="300"/>
+<img src="screenshots/SahayaLoginPage.png" width="200"/>
+
 > [Signup Screen]
-<img src="screenshots/SahayaSignupPage.png" width="300"/>
+<img src="screenshots/SahayaSignupPage.png" width="200"/>
 
 > [RoleSelection Screen]
-<img src="screenshots/SahayaRoleSelection.png" width="300"/>
+<img src="screenshots/SahayaRoleSelection.png" width="200"/>
 
 > [CustomerHome Screen]
-<img src="screenshots/SahayaCustomerHome.png" width="300"/>
+<img src="screenshots/SahayaCustomerHome.png" width="200"/>
 
 > [ProviderHome Screen]
-<img src="screenshots/SahayaProviderHome.png" width="300"/>
+<img src="screenshots/SahayaProviderHome.png" width="200"/>
 
 > [AdminHome Screen]
-<img src="screenshots/SahayaAdminHome.png" width="300"/>
+<img src="screenshots/SahayaAdminHome.png" width="200"/>
 
 > [ServiceSelection Screen]
-<img src="screenshots/SahayaServiceSelection.png" width="300"/>
+<img src="screenshots/SahayaServiceSelection.png" width="200"/>
 
 > [ServiceBook Screen]
-<img src="screenshots/SahayaServiceBook.png" width="300"/>
+<img src="screenshots/SahayaServiceBook.png" width="200"/>
 
 > [BookingConfirm Screen]
-<img src="screenshots/SahayaBookConfirm.png" width="300"/>
+<img src="screenshots/SahayaBookConfirm.png" width="200"/>
 
 > [UserProfile Screen
-<img src="screenshots/SahayaUserProfile.png" width="300"/>
+<img src="screenshots/SahayaUserProfile.png" width="200"/>
 
 > [ProfileUpdate Screen]
-<img src="screenshots/SahayaProfileUpdate.png" width="300"/>
+<img src="screenshots/SahayaProfileUpdate.png" width="200"/>
 
 
 ---
