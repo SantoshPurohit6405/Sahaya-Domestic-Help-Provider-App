@@ -54,48 +54,102 @@ Finding reliable domestic help is often time-consuming and unorganized, especial
 
 The following screenshots demonstrate the complete user journey across different roles, highlighting authentication, service booking, provider interaction, and profile management workflows.
 
+
 🔐 Authentication Screens
 (Entry point of the application)
 
-<p align="center"> <img src="screenshots/SahayaLoginPage.png" width="220"/> <img src="screenshots/SahayaSignupPage.png" width="220"/> <img src="screenshots/SahayaRoleSelection.png" width="220"/> </p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="screenshots/SahayaLoginPage.png" width="200"/><br/>
+      <small><b>Login Screen</b><br/>Secure user authentication</small>
+    </td>
+    <td width="40"></td>
+    <td align="center">
+      <img src="screenshots/SahayaSignupPage.png" width="200"/><br/>
+      <small><b>Signup Screen</b><br/>New user registration</small>
+    </td>
+    <td width="40"></td>
+    <td align="center">
+      <img src="screenshots/SahayaRoleSelection.png" width="200"/><br/>
+      <small><b>Role Selection</b><br/>Customer or Service Provider</small>
+    </td>
+  </tr>
+</table>
 
 
+🏠 Home Screens (Role-Based Dashboards)
+(Different views based on user roles)
 
-> [Login Screen]
-<img src="screenshots/SahayaLoginPage.png" width="300"/>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="screenshots/SahayaCustomerHome.png" width="200"/><br/>
+      <small><b>Customer Home</b><br/>Browse & book services</small>
+    </td>
+    <td width="40"></td>
+    <td align="center">
+      <img src="screenshots/SahayaProviderHome.png" width="200"/><br/>
+      <small><b>Provider Home</b><br/>Manage service requests</small>
+    </td>
+    <td width="40"></td>
+    <td align="center">
+      <img src="screenshots/SahayaAdminHome.png" width="200"/><br/>
+      <small><b>Admin Dashboard</b><br/>System & user management</small>
+    </td>
+  </tr>
+</table>
 
-> [Signup Screen]
-<img src="screenshots/SahayaSignupPage.png" width="300"/>
 
-> [RoleSelection Screen]
-<img src="screenshots/SahayaRoleSelection.png" width="300"/>
+🛠 Service Discovery & Booking Flow (Customer)
+(End-to-end customer service journey)
 
-> [CustomerHome Screen]
-<img src="screenshots/SahayaCustomerHome.png" width="300"/>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="screenshots/SahayaServiceSelection.png" width="200"/><br/>
+      <small><b>Service Selection</b><br/>Choose required service</small>
+    </td>
+    <td width="40"></td>
+    <td align="center">
+      <img src="screenshots/SahayaServiceBook.png" width="200"/><br/>
+      <small><b>Service Booking</b><br/>Book selected provider</small>
+    </td>
+    <td width="40"></td>
+    <td align="center">
+      <img src="screenshots/SahayaBookConfirm.png" width="200"/><br/>
+      <small><b>Booking Confirmation</b><br/>Confirm service request</small>
+    </td>
+  </tr>
+</table>
 
-> [ProviderHome Screen]
-<img src="screenshots/SahayaProviderHome.png" width="300"/>
 
-> [AdminHome Screen]
-<img src="screenshots/SahayaAdminHome.png" width="300"/>
+📥 Service Request Management (Service Provider)
+(Handling customer requests)
 
-> [ServiceSelection Screen]
-<img src="screenshots/SahayaServiceSelection.png" width="300"/>
+<p align="center">
+  <img src="screenshots/SahayaAcceptReq.png" width="200"/><br/>
+  <small><b>Request Acceptance</b><br/>Accept or reject service requests</small>
+</p>
 
-> [ServiceBook Screen]
-<img src="screenshots/SahayaServiceBook.png" width="300"/>
 
-> [BookingConfirm Screen]
-<img src="screenshots/SahayaBookConfirm.png" width="300"/>
+👤 Profile Management
+(User account and settings)
 
-> [ServiceAccept Screen]
-<img src="screenshots/SahayaAcceptReq.png" width="300"/>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="screenshots/SahayaUserProfile.png" width="200"/><br/>
+      <small><b>Profile View</b><br/>User details overview</small>
+    </td>
+    <td width="40"></td>
+    <td align="center">
+      <img src="screenshots/SahayaProfileUpdate.png" width="200"/><br/>
+      <small><b>Profile Update</b><br/>Edit personal information</small>
+    </td>
+  </tr>
+</table>
 
-> [UserProfile Screen
-<img src="screenshots/SahayaUserProfile.png" width="300"/>
-
-> [ProfileUpdate Screen]
-<img src="screenshots/SahayaProfileUpdate.png" width="300"/>
 
 
 ---
