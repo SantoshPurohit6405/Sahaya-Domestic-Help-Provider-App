@@ -79,6 +79,9 @@ Finding reliable domestic help is often time-consuming and unorganized, especial
 > [BookingConfirm Screen]
 <img src="screenshots/SahayaBookConfirm.png" width="300"/>
 
+> [ServiceAccept Screen]
+<img src="screenshots/SahayaAcceptReq.png" width="300"/>
+
 > [UserProfile Screen
 <img src="screenshots/SahayaUserProfile.png" width="300"/>
 
