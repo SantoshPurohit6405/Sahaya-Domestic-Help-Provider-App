@@ -52,6 +52,15 @@ Finding reliable domestic help is often time-consuming and unorganized, especial
 
 ## 📸 Screenshots
 
+The following screenshots demonstrate the complete user journey across different roles, highlighting authentication, service booking, provider interaction, and profile management workflows.
+
+🔐 Authentication Screens
+(Entry point of the application)
+
+<p align="center"> <img src="screenshots/SahayaLoginPage.png" width="220"/> <img src="screenshots/SahayaSignupPage.png" width="220"/> <img src="screenshots/SahayaRoleSelection.png" width="220"/> </p>
+
+
+
 > [Login Screen]
 <img src="screenshots/SahayaLoginPage.png" width="300"/>
 
