@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".ServiceSelection">
+
+    <TextView
+        android:id="@+id/serviceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Services"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="2dp" />
+
+    <TextView
+        android:id="@+id/service2Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Only 2 services that you will be providing)"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/cbDomesticHelp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Domestic Help" />
+
+        <CheckBox
+            android:id="@+id/cbPersonalDriver"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Personal Driver" />
+
+        <CheckBox
+            android:id="@+id/cbHomeCook"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Home Cook" />
+
+        <CheckBox
+            android:id="@+id/cbElectrician"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Electrician" />
+
+        <CheckBox
+            android:id="@+id/cbPlumber"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Plumber" />
+
+        <CheckBox
+            android:id="@+id/cbWardPerson"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Ward Person" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ExperienceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What's Your Experience??"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center" />
+
+    <RadioGroup
+        android:id="@+id/experienceGroup"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp">
+
+        <RadioButton
+            android:id="@+id/rbExperienced"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experienced" />
+
+        <RadioButton
+            android:id="@+id/rbFresher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fresher" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_edittext"
+        android:backgroundTint="@color/purple"
+        android:padding="10dp"
+        android:text="FINISH"
+        android:textSize="18sp" />
+
+</LinearLayout>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/drivertop"
+        android:layout_width="420dp"
+        android:layout_height="210dp"
+        android:src="@drawable/img_12"/>
+
+    <TextView
+        android:layout_below="@+id/drivertop"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sahaya Personal Drivers"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple"
+        android:gravity="center"
+        android:layout_marginLeft="60dp"/>
+
+    <!-- RecyclerView to display the list of providers -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewProviders"
+        android:layout_below="@+id/drivertop"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp" />
+
+</RelativeLayout>

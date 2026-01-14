@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.SahayaApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"/>
+
+        <activity android:name=".RoleSelection"
+            android:exported="false"/>
+
+        <activity android:name=".ServiceSelection"
+            android:exported="false"/>
+
+        <activity android:name=".CustomerHome"
+            android:exported="false"/>
+
+        <activity android:name=".AdminHome"
+            android:exported="false"/>
+
+        <activity android:name=".AdminCustomer"
+            android:exported="false"/>
+
+        <activity android:name=".AdminProviders"
+            android:exported="false"/>
+
+        <activity android:name=".AdminPanel"
+            android:exported="false"/>
+
+        <activity android:name=".CustomerProfile"
+            android:exported="false"/>
+
+        <activity android:name=".ProviderHome"
+            android:exported="false"/>
+
+        <activity android:name=".ProviderProfile"
+            android:exported="false"/>
+
+        <activity android:name=".UpdateProfile"
+            android:exported="false"/>
+
+        <activity android:name=".CustomerSearch"
+            android:exported="false"/>
+
+        <activity android:name=".HouseHelp"
+            android:exported="false"/>
+
+        <activity android:name=".Ward"
+            android:exported="false"/>
+
+        <activity android:name=".Electrician"
+            android:exported="false"/>
+
+        <activity android:name=".Plumber"
+            android:exported="false"/>
+
+        <activity android:name=".Driver"
+            android:exported="false"/>
+
+        <activity android:name=".Cook"
+            android:exported="false"/>
+
+        <activity android:name=".Requests"
+            android:exported="false"/>
+
+        <activity android:name=".BookingActivity"
+            android:exported="false"/>
+
+        <activity android:name=".BookingSuccessActivity"
+            android:exported="false"/>
+
+        <activity android:name=".ProviderSuccess"
+            android:exported="false"/>
+
+        <activity android:name=".CompletedBookingsActivity"
+            android:exported="false"/>
+
+        <activity android:name=".Splash"
+            android:exported="false"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:elevation="6dp"
+    android:padding="10dp"
+    app:cardCornerRadius="30dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/serviceIdTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service ID: "
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/serviceNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service Name:  "
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/customerNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Name:  "
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/phoneTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Phone: "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"/>
+
+        <TextView
+            android:id="@+id/emailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Email: "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"/>
+
+        <Button
+            android:id="@+id/acceptButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Accept"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:background="@drawable/custom_edittext"/>
+
+        <Button
+            android:id="@+id/rejectButton"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Reject"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:background="@drawable/custom_edittext"/>
+
+        <Button
+            android:id="@+id/chatButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chat with Customer"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/endServiceButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="End Service"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

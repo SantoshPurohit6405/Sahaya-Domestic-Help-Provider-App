@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/service_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Service ID: "
+        android:textColor="@color/purple"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/customer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Name:"
+        android:textStyle="bold"
+        android:textColor="@color/purple"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/provider_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provider Name"
+        android:textStyle="bold"
+        android:textColor="@color/purple"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/service_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Name"
+        android:textStyle="bold"
+        android:textColor="@color/purple"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/booking_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking Date"
+        android:textStyle="bold"
+        android:textColor="@color/purple"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"/>
+
+    <!-- Divider Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/grey"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

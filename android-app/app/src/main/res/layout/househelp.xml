@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:id="@+id/househelptop"
+            android:layout_width="420dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img_7"/>
+
+        <TextView
+            android:layout_below="@+id/househelptop"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sahaya House-Help Providers"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"/>
+
+        <!-- RecyclerView to display the list of providers -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewProviders"
+            android:layout_below="@+id/househelptop"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp" />
+
+</RelativeLayout>
