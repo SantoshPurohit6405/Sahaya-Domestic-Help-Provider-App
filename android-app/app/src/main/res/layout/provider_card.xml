@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+    <RelativeLayout
+        android:id="@+id/top1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/user_bg"/>
+
+        <ImageView
+            android:id="@+id/Admin1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/img"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:id="@+id/Admin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Your Service"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="45dp"/>
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/custom_edittext">
+
+        <TextView
+            android:id="@+id/providerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Provider Name:  "
+            android:textSize="25dp"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/providerService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service:  "
+            android:padding="10dp"
+            android:layout_marginTop="70dp"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click on the button below to book you Sahaya Service Now!"
+            android:padding="10dp"
+            android:layout_marginTop="150dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/bookNowBtn"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Book Now"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginLeft="70dp"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/custom_edittext"
+            android:backgroundTint="@color/purple" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_500"
+        android:layout_marginTop="20dp"
+        android:text="*Once your service is accepted,you will be able to make a conversation with your Service Provider through Sahaya Chat System!"/>
+</LinearLayout>

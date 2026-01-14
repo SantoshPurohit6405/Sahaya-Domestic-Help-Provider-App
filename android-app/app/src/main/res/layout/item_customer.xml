@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/customer_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="ID: "
+        android:textColor="@color/purple"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/customer_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username:"
+        android:textStyle="bold"
+        android:textColor="@color/purple"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/customer_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile:"
+        android:textStyle="bold"
+        android:textColor="@color/purple"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/customer_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textStyle="bold"
+        android:textColor="@color/purple"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/customer_created_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created On:"
+        android:textStyle="bold"
+        android:textColor="@color/purple"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"/>
+
+    <!-- Divider Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/grey"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
+
